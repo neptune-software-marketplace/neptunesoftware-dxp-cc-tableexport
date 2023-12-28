@@ -1,0 +1,51 @@
+{
+	"id": "407c531e-6ea5-ee11-8925-0022489e23d1",
+	"createdAt": "2023-12-28T10:44:47.876Z",
+	"createdBy": "lloyd.trevarthen@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-cc-tableexport"
+	},
+	"name": "neptunesoftware-dxp-cc-tableexport",
+	"description": null,
+	"ver": "23.12.28.1045",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "280bc56e-e994-ee11-8925-0022489e2d9f",
+			"application": "neptune_tableexportoptions",
+			"title": "Table export options",
+			"description": "",
+			"package": {
+				"id": "407C531E-6EA5-EE11-8925-0022489E23D1"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
