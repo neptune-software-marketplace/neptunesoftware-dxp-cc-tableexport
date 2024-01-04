@@ -424,6 +424,18 @@
 					"data": []
 				},
 				{
+					"fieldNo": "fe578f07-e0b8-47aa-c505-f4c3e575eabd",
+					"fieldName": "ReadMe",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/ReadMe.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
 					"fieldNo": "04e18c34-9259-42da-e352-6494ca093dd3",
 					"fieldName": "Externalmodules",
 					"fieldParent": 99999,
@@ -529,7 +541,7 @@
 	],
 	"componentInterface": {
 		"icon": null,
-		"documentation": "",
+		"documentation": "<h3><span style=\"color: rgb(0, 0, 0);\">Description</span></h3><p><span style=\"color: rgb(0, 0, 0);\">The export functionality in this component is built on top of the library called \"Table export\"&nbsp;</span><span style=\"color: rgb(0, 0, 0);\">which has dependencies such as html2canvas, pdfmaker, filesaver, etc.</span></p><p><span style=\"color: rgb(0, 0, 0);\">You can learn more about this library by visiting the GitHub repository at <a href=\"https://github.com/hhurz/tableExport.jquery.plugin/.\" rel=\"noreferrer noopener\" target=\"_blank\">https://github.com/hhurz/tableExport.jquery.plugin/.</a></span></p><h3><span style=\"color: rgb(0, 0, 0);\">Capabilities</span></h3><p><span style=\"color: rgb(0, 0, 0);\">This custom component allows you to export a table to various formats&nbsp;</span><span style=\"color: rgb(0, 0, 0);\">such as PDF, CSV, XLSX, and JSON. To make it work, you need to add a table name&nbsp;</span><span style=\"color: rgb(0, 0, 0);\">as seen in the JavaScript file using the following syntax: `$(tableName).tableExport({})`.</span></p><h3>Limitations</h3><p>The component works only on display/non-editable tables. That is, tables with standard HTML table structure &lt;td&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt; structure unlike editable tables with &lt;td&gt;&lt;div&gt;&lt;input&gt;&lt;/input&gt;&lt;/div&gt;&lt;/td&gt; structure.</p><p><strong>Other Helpful Resources</strong></p><p><span style=\"color: rgb(0, 0, 0);\">For a better understanding of custom components and their usage,&nbsp;</span><span style=\"color: rgb(0, 0, 0);\">you can refer to the documentation at&nbsp;</span></p><p><a href=\"https://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/app-designer-custom-component.html.\" rel=\"noreferrer noopener\" target=\"_blank\"><span style=\"color: rgb(0, 0, 0);\">https://docs.neptune-software.com/neptune-dxp-open-edition/23/cockpit-overview/app-designer-custom-component.html.</span></a></p><div><strong><span style=\"color: rgb(0, 0, 0);\">​<br></span></strong></div><h3><strong><span style=\"color: rgb(0, 0, 0);\">How to use in other Apps</span></strong></h3><ol><li><span style=\"color: rgb(0, 0, 0);\">Add component to the top of the Table.&nbsp;</span></li><li><span style=\"color: rgb(0, 0, 0);\">Add your table name to the tableName attribute.&nbsp;</span></li><li><span style=\"color: rgb(0, 0, 0);\">Test.</span></li></ol><p><strong style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; --nepBorderWidth: 1px; --nepBorder: var(--nepBorderWidth) solid var(--nepBorderColor); box-sizing: border-box; -webkit-user-drag: none; overflow: visible; font-family: inherit; font-size: inherit; color: inherit;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; --nepBorderWidth: 1px; --nepBorder: var(--nepBorderWidth) solid var(--nepBorderColor); box-sizing: border-box; -webkit-user-drag: none; overflow: visible; font-family: inherit; font-size: inherit; color: rgb(0, 0, 0); display: inline; vertical-align: baseline; margin: 0px; padding: 0px;\">Troubleshooting&nbsp;<br></span></strong><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; --nepBorderWidth: 1px; --nepBorder: var(--nepBorderWidth) solid var(--nepBorderColor); box-sizing: border-box; -webkit-user-drag: none; overflow: visible; font-family: inherit; font-size: inherit; color: rgb(0, 0, 0); display: inline; vertical-align: baseline; margin: 0px; padding: 0px;\">If you encounter any errors, check the&nbsp; following:</span></p><ul><li><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-size-adjust: none; --nepBorderWidth: 1px; --nepBorder: var(--nepBorderWidth) solid var(--nepBorderColor); box-sizing: border-box; -webkit-user-drag: none; overflow: visible; font-family: inherit; font-size: inherit; color: rgb(0, 0, 0); display: inline; vertical-align: baseline; margin: 0px; padding: 0px;\">Check the responsivepopover to ensure it is correctly referenced.</span></li><li>The required libraries are correctly referenced on the header or added as a file to the resource section</li></ul>",
 		"containerId": null,
 		"attributes": [
 			{
@@ -793,7 +805,7 @@
 			}
 		]
 	},
-	"ver": "23.12.28.1158",
+	"ver": "24.1.4.119",
 	"application": "neptune_tableexportoptions",
 	"title": "Table export options",
 	"description": "",
